@@ -1,11 +1,11 @@
 
-var wordBank = ['Madonna', 'EltonJohn', 'Beatles', 'Queen', 'BonJovi', 'Metallica', 'Radiohead'];
+var wordBank = ['Madonna', 'Jackson', 'Beatles', 'Queen', 'BonJovi'];
 var wins = 0;
 var losses = 0;
 var currentWord = []; //q u e e n
 var hideWord = [];  // _ _ _ _ _
 var guessedLetter = []; // a  
-var guessesLeft = 12;
+var guessesLeft = 8;
 var availableLetters = [];
 var gameRunning = false;
 var guess; //q 
@@ -98,7 +98,7 @@ function reset(){
     this.currentWord = []; 
     this.hideWord = [];  
     this.guessedLetter = []; 
-    this.guessesLeft = 12;
+    this.guessesLeft = 8;
 
     var  pickedWord = wordBank[Math.floor(Math.random() * wordBank.length)];
 

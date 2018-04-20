@@ -1,0 +1,41 @@
+
+
+#new-game-button{
+    background: black;
+    color: white;
+    padding: 15px;
+}
+
+#new-game-button:hover{
+    background: red;
+    
+}
+
+#new-game-button:active {
+    box-shadow: 0 0 red;
+    
+}
+
+#rightsidegrid{
+    text-align: right;
+    
+}
+
+#placeholders{
+    letter-spacing: 6px;
+    font-size: 24px;
+}
+
+#game-content{
+    border-top: 4px dotted black;
+    border-left: 4px dotted black;
+    border-right: 4px dotted black;
+    border-bottom: 4px solid black;
+}
+
+#game-subcontent{
+    border-left: 4px dotted black;
+    border-right: 4px dotted black;
+    border-bottom: 4px dotted black;
+}
+
